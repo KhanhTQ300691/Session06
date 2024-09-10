@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: left;
+  max-width: 1300px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.property-card {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+}
+
+.property-image {
+  width: 100%;
+  height: auto;
+}
+
+.property-info {
+  padding: 15px;
+  background-color: #fff;
+}
+
+.property-title {
+  font-size: 18px;
+  color: #333;
+  margin: 0 0 10px;
+  padding-bottom: 10px;
+}
+
+.property-location,
+.property-area,
+.property-purpose {
+  font-size: 14px;
+  color: red;
+  margin: 5px 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+
+.property-location .location-icon,
+.property-area .area-icon,
+.property-purpose .purpose-icon {
+  width: 16px;
+  height: 16px;
+  background-color: #0099ff;
+  margin-right: 8px;
+  border-radius: 50%;
+}
+
+.property-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.property-price span {
+  font-size: 20px;
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.details-button {
+  padding: 8px 12px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.details-button:hover {
+  background-color: #2980b9;
+}
